@@ -1,4 +1,4 @@
-#Fine-tuning SOMs for cloud masking 
+# Fine-tuning SOMs for cloud masking 
 
 This repository contains code related to the study analyzed in the paper cited below:
 
