@@ -43,7 +43,7 @@ for file in directory2:
     X_test6=im3[2500000:3000000,:]
     X_test7=im3[3000000:size,:]
     
-    #Detecting the coordinates of the Best Matching Units (BMUs) for each spectral signature of the training set. The coordinates are stored in a list data type.
+    #Detecting the coordinates of the Best Matching Units (BMUs) for each spectral signature. The coordinates are stored in a list data type.
     clusters1 = som.get_clusters(X_test1)    
     clusters2 = som.get_clusters(X_test2)
     print(" Cluster 3" )
