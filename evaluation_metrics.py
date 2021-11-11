@@ -66,7 +66,7 @@ for i in range(number_files):
     SOM_mask2=np.reshape(SOM_mask,(size,1)) 
 
     #Calculate the confusion matrix
-    conf_m=confusion_matrix(gt_mask2, SOM_mask2,labels=[0,255]) 
+    conf_m=confusion_matrix(gt_mask2, SOM_mask2,labels=[255,0]) 
     
     #Store the confusion matrix information
     Conf_info[i,0]=conf_m[0,0]
