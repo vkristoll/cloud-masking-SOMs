@@ -30,3 +30,13 @@ spectraData=spectra[:]
 #classes
 classes=f['classes'] 
 classesData=classes[:]  
+
+# Create array that contains the spectra and the class labels
+'''Each row contains 14 collumns: a) 13 collumns for the reflectance values of Sentinel-2 satellite spectra,
+#b) one column for the label of the spectra. There are six classes, thus six different
+ labels:"10:land", "20:water", "30:shadow", "40:cirrus", "50:opaque cloud", "60:snow".'''
+classesData=np.expand_dims(classesData,1)
+Array_spectra_labels=np.concatenate((spectraData,classesData), axis=1)
+
+#Save the array with the spectra and the labels
+np.savetxt("2017_spectraSOMs.csv", Array_spectra_labels, delimiter=',', header=" #B1,  #B2,  #B3,  #B4, #B5, #B6, #B7, #B8, #B8a, #B9, #B10, #B11, #B12, #label",fmt='%10.4f')
