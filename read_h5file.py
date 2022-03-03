@@ -21,7 +21,7 @@ class_idsData=class_ids[:]
 
 #class_names
 class_names=f['class_names']
-class_namesData=class_names[:]
+print(class_names[:])
 
 #spectra
 spectra=f['spectra'] 
