@@ -46,7 +46,7 @@ Run:
 
 *The trained SOM ("SOM_trained.p") can be downloaded from https://mega.nz/file/WEkjEIba#Q85WGr14UljMVQ8vui2Otou21-q71l7ZKeF4fL0b-8w
 
-*The output file of "BMUs_detection.py" ("BMUs.csv" can be downloaded from https://mega.nz/file/SR0hVSpQ#1z5yK6alpe5TC33lTVZSbt5DZ9dW_9eaI2B23O-Fzgk
+*The output file of "BMUs_detection.py" ("BMUs.csv") can be downloaded from https://mega.nz/file/SR0hVSpQ#1z5yK6alpe5TC33lTVZSbt5DZ9dW_9eaI2B23O-Fzgk
 
 If you use this code, please cite the below paper.
 
