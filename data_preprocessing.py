@@ -28,14 +28,14 @@ ya=np.concatenate((y1,y2), axis=0)
 # Feature Scaling
 from sklearn.preprocessing import MinMaxScaler
 sc = MinMaxScaler(feature_range = (0, 1))
-X_traina2 = sc.fit_transform(X_traina)
+X_train = sc.fit_transform(X_traina)
 
 # Take a random sample in case the training process is slow
 #Define a seed to get the same indices in every run
-np.random.seed(seed=42)
-random_indices = np.random.choice(len(X_traina2), size=1000000, replace=False)
+#np.random.seed(seed=42)
+#random_indices = np.random.choice(len(X_train), size=1000000, replace=False)
 
-X_train=X_traina2[random_indices,:]
+#X_train=X_train[random_indices,:]
 
 
 
