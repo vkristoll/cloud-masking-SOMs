@@ -44,7 +44,7 @@ Run:
 
 *Detailed guidelines are included inside each script.
 
-*The trained SOM ("SOM_trained.p) can be downloaded from https://mega.nz/file/WEkjEIba#Q85WGr14UljMVQ8vui2Otou21-q71l7ZKeF4fL0b-8w
+*The trained SOM ("SOM_trained.p") can be downloaded from https://mega.nz/file/WEkjEIba#Q85WGr14UljMVQ8vui2Otou21-q71l7ZKeF4fL0b-8w
 
 If you use this code, please cite the below paper.
 
